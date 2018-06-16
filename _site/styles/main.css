@@ -5,7 +5,7 @@
 }
 
 header {
-min-height:100vh;
+height:100vh;
 }
 
 h1{
@@ -20,6 +20,13 @@ background-style: contain;
 background-position: center;
 }
 
+.social{
+
+}
+
+.instagram{
+  background-color:yellow;
+}
 
 section{
 
@@ -37,10 +44,14 @@ color:white;
 }
 
 form{
-
+text-align: center;
+padding:2%;
 }
 
 a{
   color: rgb(49, 34, 30);
   background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 3px;
 }

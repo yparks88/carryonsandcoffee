@@ -15,57 +15,64 @@
   <h1>CarryOns and Coffee</h1>
   <div class="grid">
     <div class="col-4">
-      <a href="#"> Home </a>
+      <a href="/"> Home </a>
     </div>
     <div class="col-4">
-      <a href="#"> Destinations </a>
+      <a href="destinations"> Destinations </a>
     </div>
     <div class="col-4">
-      <a href="#"> Tips&Tricks </a>
+      <a href="tips"> Tips&Tricks </a>
     </div>
   </div>
 </header>
 
 
-        <section class="grid">
-      <div class ="col-4">
-        <a href="www.facebook.com"> Facebook</a>
-      </div>
-      <div class="col-4">
-        <a href="www.instagram.com/carryonsandcoffee"> Instagram </a>
-      </div>
-      <div class="col-4">
-        <a href="www.linkedin.com"> Linkedin </a>
-      </div>
-  </section>
+      
+<section class="social">
+      <a href="www.facebook.com"> Facebook</a>
+      <a href="www.instagram.com/carryonsandcoffee"> Instagram </a>
+      <a href="www.linkedin.com"> Linkedin </a>
+</section>
 
-<!--Main Text and Image-->
+
+      <!--Main Text and Image-->
 <section class="grid">
+  <div class="grid col-9">
   <div class="col-4 article-image">Image 1 </div>
   <div class="col-8">
-    <h2>Text 1 </h2>
+    <h4>Text 1 </h4>
+    <h4> Author</h4>
+    <h4> Date </h4>
       <p>
         I could be pensive, uhh... smart, supersticious, brave? And I, uhh, I can be light on my feet. If I drive for you, you get your money. I wrote you 365 letters. I relate to these characters because aspects of their personality are like me. If I drive for you, you give me a time and a place, I give you a five minute window. I could be whatever you want. Then, telling Derek Cianfrance that I'd ever I could rob a bank I'd do it on my motorcycle, and he said 'That's weird, I just wrote a script about that'. In most movies you spend so much time looking for any scraps of truth, and in this movie you're just marinating in it.
       </p>
   </div>
   <div class="col-8">
     <h2>Text 2</h2>
+    <h4>Author</h4>
+    <h4> Date</h4>
     <p>I could be pensive, uhh... smart, supersticious, brave? And I, uhh, I can be light on my feet. If I drive for you, you get your money. I wrote you 365 letters. I relate to these characters because aspects of their personality are like me. If I drive for you, you give me a time and a place, I give you a five minute window. I could be whatever you want. Then, telling Derek Cianfrance that I'd ever I could rob a bank I'd do it on my motorcycle, and he said 'That's weird, I just wrote a script about that'. In most movies you spend so much time looking for any scraps of truth, and in this movie you're just marinating in it.
     </P>
    </div>
   <div class="col-4 article-image"></div>
+</div>
+
+  <div class="col-3 sidenav">
+    
+<h2>More Destinations </h2>
+<ul>
+  <li><a href="#Seattle"> Seattle </a></li>
+  <li><a href="San Diego"> San Diego </a></li>
+  <li><a href="Vancouver"> Vancouver </a></li>
+</ul>
+
+  </div>
+
 </section>
 
   <!--Repeatable Quote or Tip-->
 
-  <section>
-    <blockquote></blockquote>
-  </section>
-
   <!--Repeatable Footer-->
-
-  <footer> Add Form Link Here
-  </footer>
 
 
       <!--Repeatable Quote or Tip-->
@@ -75,10 +82,21 @@
 </section>
 
 
+      <!--Instagram pics will go here-->
+      <!---Instagram will go here-->
+<div class="instagram">
+  Instagram here
+</div>
+
+
       <!--Repeatable Footer-->
       
 <footer>
-  Add form link here
+  <form method="POST" action="https://formspree.io/carryonsandcoffee@gmail.com">
+  <input type="email" name="email" placeholder="Tell Me More">
+  <textarea name="message" placeholder="I would like additional information!"></textarea>
+  <button type="submit">Send</button>
+  </form>
 </footer>
 
   </body>
