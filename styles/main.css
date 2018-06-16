@@ -1,7 +1,7 @@
 *{
   padding:0;
   margin: 0;
-  border:2px solid rgb(49,34,30);
+  color: rgb(49,34,30)
 }
 
 header {
@@ -9,27 +9,69 @@ height:100vh;
 }
 
 h1{
-  font-size: 15vh;
+  font-size: 10vh;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   color: white;
+  height:15vh;
+  padding: 20%;
+}
+
+h2,h3,ul{
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+
+h4{
+  margin-bottom: 2%;
+}
+
+p,li{
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 2%;
 }
 
 .banner{
-background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1465016314000/photosp/2b9389ae-a77b-468d-878c-1f2e672fc318/stock-photo-travel-gold-sunglasses-luggage-traveling-packing-carryon-passport-flay-lay-2b9389ae-a77b-468d-878c-1f2e672fc318.jpg);
-background-style: contain;
+background-image: url(https://t3.ftcdn.net/jpg/01/07/45/10/240_F_107451061_aqn3wKBef3T0SjwL5f45ONVnlzS3htP7.jpg);
+background-size: cover;
 background-position: center;
 }
 
+.menu-button {
+  text-align: center;
+  font-weight:700;
+  border: 0;
+}
+/*--Need to align right--*/
 .social{
+  border: 1px solid rgb(49,34,30);
+  block-align:right;
+}
 
+.sidenav{
+  padding-left: 5%;
+  border-left: 2px solid rgb(49,34,30);
 }
 
 .instagram{
-  background-color:yellow;
+  background-color: rgb(147,221,223);
+  border: 1px solid rgb(49,34,30)
 }
 
 section{
 
+}
+
+.profile-image{
+  background-image: url(/images/carryonsandcoffeeprofilepic.jpg);
+  background-size: cover;
+  text-align: right;
+}
+
+.map-image{
+  background-image:url(/images/profilemappic.jpg);
+  background-size: cover;
 }
 
 .article-image{
@@ -38,17 +80,40 @@ section{
   background-style: cover;
 }
 
+.article-image2{
+  background-image: url(/images/coffeebalance.jpg);
+  background-size: cover;
+}
+
+.index-body{
+  padding: 5%;
+}
+
+.content-text{
+  padding: 5%;
+}
+
+.tips-body{
+  padding: 5%;
+}
+
+.quote{
+  text-align: center;
+}
+
 footer{
-background-color: rgb(162, 114, 108);
-color:white;
+  background-color: rgb(147,221,223);
+  background-size: cover;
+  color:white;
 }
 
 form{
-text-align: center;
-padding:2%;
+  text-align: center;
+  padding:2%;
 }
 
 a{
+  font-family: 'Cormorant Garamond', serif;
   color: rgb(49, 34, 30);
   background-color: white;
   text-align: center;
