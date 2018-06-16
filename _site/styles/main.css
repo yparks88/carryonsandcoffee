@@ -8,9 +8,16 @@ header {
 min-height:100vh;
 }
 
+h1{
+  font-size: 15vh;
+  text-align: center;
+  color: white;
+}
+
 .banner{
 background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1465016314000/photosp/2b9389ae-a77b-468d-878c-1f2e672fc318/stock-photo-travel-gold-sunglasses-luggage-traveling-packing-carryon-passport-flay-lay-2b9389ae-a77b-468d-878c-1f2e672fc318.jpg);
-background-position: contain;
+background-style: contain;
+background-position: center;
 }
 
 
@@ -20,6 +27,8 @@ section{
 
 .article-image{
   background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1511846713000/photosp/18f81702-ce8e-4f81-a415-ac86b7945f25/stock-photo-nobody-view-from-above-brown-food-indoors-wood-love-plate-drink-18f81702-ce8e-4f81-a415-ac86b7945f25.jpg);
+  background-position: center;
+  background-style: cover;
 }
 
 footer{
@@ -29,4 +38,9 @@ color:white;
 
 form{
 
+}
+
+a{
+  color: rgb(49, 34, 30);
+  background-color: white;
 }
