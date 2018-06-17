@@ -1,0 +1,30 @@
+---
+layout: default
+title: Title
+permalink: /:year/:month/:everyday
+---
+
+
+<section class="grid destination-body">
+  <div class="grid col-9">
+
+
+
+
+    {% for post in site.posts limit:6 %}
+      <div class="col-6 destination-image-main">
+        <img src="{{post.image_path}}">
+      </div>
+
+      <div class="col-6 content-text">
+        <h2> {{post.title}} </h2>
+          <h3> {{post.author}} </h3>
+            <h4> {{page.date}} </h4>
+
+              {{content}}
+      </div>
+
+      {% endfor %}
+    </div>
+
+</section>

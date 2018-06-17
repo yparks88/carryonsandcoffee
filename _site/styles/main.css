@@ -9,7 +9,7 @@ header {
 }
 
 h1{
-  font-size: 10vh;
+  font-size: 20vh;
   font-family: 'Dancing Script', cursive;
   text-align: center;
   color: white;
@@ -17,29 +17,38 @@ h1{
   padding: 20%;
 }
 
-h2,h3,ul{
+h2{
   font-family: 'Dancing Script', cursive;
-  text-decoration: underline;
+    text-decoration: underline;
+  font-size:5vh;
+}
+
+h3,ul{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4vh;
   margin-bottom: 2%;
 }
 
 h4{
+  font-size: 2vh;
   margin-bottom: 2%;
-  color: rgb(147,221,223);
+  color: rgb(147,221,239);
 }
 
 p,li{
   font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size:3vh;
   margin-bottom: 2%;
 }
 
 a{
   font-family: 'Cormorant Garamond', serif;
-  color: rgb(147,221,223);
+  color: rgb(147,221,239);
   background-color: white;
   text-align: center;
   text-decoration: none;
-  border: 1px solid rgb(147,221,223);
+  border: 1px solid rgb(147,221,239);
   border-radius: 4px;
   padding: 3px;
 }
@@ -75,7 +84,7 @@ nav a {
 }
 
 .instagram{
-  background-color: rgb(147,221,223);
+  background-color: rgb(147,221,239);
   border: 1px solid rgb(49,34,30)
 }
 
@@ -83,15 +92,8 @@ section{
 
 }
 
-.profile-image{
-  background-image: url(/images/carryonsandcoffeeprofilepic.jpg);
-  background-size: cover;
-  text-align: right;
-}
-
-.map-image{
-  background-image:url(/images/profilemappic.jpg);
-  background-size: cover;
+.map{
+  min-height:50vh;
 }
 
 .destination-image-main{
@@ -140,7 +142,7 @@ section{
 }
 
 footer{
-  background-color: rgb(147,221,223);
+  background-color: rgb(147,221,239);
   background-size: cover;
   color:white;
 }
