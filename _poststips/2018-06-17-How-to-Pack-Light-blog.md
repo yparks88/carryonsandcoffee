@@ -3,7 +3,7 @@ layout: post
 title: Sydney Blog
 meta-description:
 meta-keywords:
-image_path: http://www.instituteofcode.com/assets/images/rice-paddy.jpg
+image_path: /images/icedcoffeecafe.jpeg
 categories: [travel, tips]
 author: Yvonne Parks
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Cartagena Blog
 meta-description:
 meta-keywords:
-image_path: /images/luggageblack.jpeg
+image_path: /images/cartagenamain.jpeg
 categories: [travel, tips]
 author: Yvonne Parks
 ---

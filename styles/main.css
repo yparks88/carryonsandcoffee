@@ -96,14 +96,6 @@ section{
   min-height:50vh;
 }
 
-.destination-image-main{
-  background-image: url(/images/cabanaworkstation.jpg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position:relative;
-}
-
 .article-image{
   background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1511846713000/photosp/18f81702-ce8e-4f81-a415-ac86b7945f25/stock-photo-nobody-view-from-above-brown-food-indoors-wood-love-plate-drink-18f81702-ce8e-4f81-a415-ac86b7945f25.jpg);
   background-position: center;

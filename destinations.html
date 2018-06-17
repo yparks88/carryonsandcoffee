@@ -9,35 +9,19 @@ banner-image: images/bgairplane.jpeg
   <section class="grid destination-body">
     <div class="grid col-9">
 
-
-
-
       {% for post in site.posts limit:6 %}
-        <div class="col-6 destination-image-main">
-          <img src="{{post.image_path}}">
-        </div>
-
-        <div class="col-6 content-text">
-          <h2> <a href= "{{post.url}}"> {{post.title}} </a></h2>
-            <h3> {{post.author}} </h3>
-              <h4> June 17, 2018 </h4>
-                <p> Not to discriminate against budgets, I feel that independent films    tend to ask more questions and don't pretend to know as much as the bigger films, which tend to think they know everything. I'm going to get to ride the bike up, rob it, and ride the bank away. I try not to make too many movies. I could be fun, if you want. It feels like not that long ago that I was on a show called 'Young Hercules' in which I had a fake tan and wore tight leather pants and fought  imaginary monsters.
-
-                  I give you five minutes when we get there. I wrote you everyday for a year. But everytime that happens, what do you get? You get a new day. It just felt meant to be. Because for me, they're all me.
-
-                  You get a new one. I'm not a good enough actor to become a character. The pictures which will be accompanying this interview are basically of me in tight wet T-shirts and tiny leather jackets going around in the rain and pretending that I'm a lot cooler than I am. When you breathe, you inhale and you exhale, but every single time that you do that you're a little bit different then the one before. If I drive for you, you give me a time and a place, I give you a five minute window.
-                </p>
-        </div>
-
-        {% endfor %}
+      <div class="col-6">
+        <img src="{{post.image_path}}">
       </div>
 
+      <div class="col-6 content-text">
+        <h2> <a href= "{{post.url}}"> {{post.title}} </a></h2>
+        <h3> {{post.author}} </h3>
+        <h4> {{post.date}} </h4>
+      </div>
 
-
-
-
-    <a href="www.facebook.com"> Share </a>
-    <a href="www.linkedin.com"> Comment </a>
+      {% endfor %}
+      </div>
 
     <div class="col-3 sidenav">
       {% include sitesidebar.html %}
