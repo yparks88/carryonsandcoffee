@@ -4,22 +4,16 @@
   color: rgb(49,34,30)
 }
 
-header {
-  height:100vh;
-}
-
 h1{
-  font-size: 20vh;
+  font-size: 10vw;
   font-family: 'Dancing Script', cursive;
   text-align: center;
   color: white;
-  height:15vh;
-  padding: 20%;
 }
 
 h2{
   font-family: 'Dancing Script', cursive;
-    text-decoration: underline;
+  text-decoration: underline;
   font-size:5vh;
 }
 
@@ -53,29 +47,39 @@ a{
   padding: 3px;
 }
 
+a:hover{
+  background-color: rgb(147,221,239);
+  color: white;
+}
+
 .banner{
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
+  padding: 5% 5% 2%;
 }
 
 nav {
-  position: absolute;
+  display:contents;
 }
 
 nav a {
-  text-align: center;
   font-weight:700;
   padding: 2% 5%;
-  bottom: 5px;
+  margin: 0 1%;
+  min-width: 20%;
 }
 
+img {
+  width: 100%;
+}
 
 /*--Need to align right--*/
 .social{
   background-color: white;
-  right: 5px;
+  text-align: right;
+  padding: 2% 5%;
 }
 
 .sidenav{
@@ -86,10 +90,6 @@ nav a {
 .instagram{
   background-color: rgb(147,221,239);
   border: 1px solid rgb(49,34,30)
-}
-
-section{
-
 }
 
 .map{
@@ -119,10 +119,11 @@ section{
 
 .content-text{
   padding: 5%;
+  display: block;
 }
 
 .destination-body{
-  padding:5%;
+  padding: 5%;
 }
 
 .tips-body{
@@ -145,16 +146,14 @@ form{
 }
 
 .formbutton {
-  padding:5%;
+  padding: 1%;
+  margin: 0 .5%;
   border: 1px solid rgb(49,34,30);
-  border-radius: 4px;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2vh;
+  font-size: 1rem;
 }
 
 .submit{
-  padding:5%;
-  border: 1px solid rgb(49,34,30);
+  background-color: red;
   border-radius: 4px;
-  font-family: 'Cormorant Garamond', serif;
 }

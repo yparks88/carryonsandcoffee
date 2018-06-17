@@ -12,16 +12,17 @@
 
   <body>
       <!--include at top of all pages-->
-      <header class="banner" style="background-image: url(/images/bgcoffeenotebook.jpeg)">
-  <h1>CarryOns & Coffee</h1>
+      <header class="banner grid-bottom-center" style="background-image: url(/images/bgcoffeenotebook.jpeg)">
 
-  <nav class="grid-center">
     <div class="col-12">
-      <a href="/" class="col-4"> Home </a>
-      <a href="destinations" class="col-4"> Destinations </a>
-      <a href="tips" class="col-4"> Tips&Tricks </a>
+      <h1>CarryOns & Coffee</h1>
     </div>
-  </nav>
+
+    <nav>
+      <a href="/"> Home </a>
+      <a href="/destinations"> Destinations </a>
+      <a href="/tips"> Tips&Tricks </a>
+    </nav>
 
 </header>
 
@@ -86,10 +87,10 @@
       <!--Repeatable Footer-->
       
 <footer>
-  <form method="POST" action="https://formspree.io/carryonsandcoffee@gmail.com">
-  <input type="email" class="formbutton" name="email" placeholder="Tell Me More">
-  <textarea name="message" class="formbutton" placeholder="I would like additional information!"></textarea>
-  <button type="submit" class="formbutton submit">Sign Up!</button>
+  <form  class="grid-middle-center" method="POST" action="https://formspree.io/carryonsandcoffee@gmail.com">
+    <input type="name" class="formbutton" name="name" placeholder="Name">
+    <input type="email" class="formbutton" name="email" placeholder="Email">
+    <button type="submit" class="formbutton submit">Tell Me More</button>
   </form>
 </footer>
 

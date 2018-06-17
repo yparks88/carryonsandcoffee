@@ -1,19 +1,12 @@
 
 <section class="grid sidebar col-3">
   <div class="col-12">
-      <h2>More Destinations </h2>
-        <ul>
-          <li><a href="#Seattle"> Seattle </a></li>
-          <li><a href="#San Diego"> San Diego </a></li>
-          <li><a href="#Vancouver"> Vancouver </a></li>
-        </ul>
+    <h2> More Destinations </h2>
+    <ul>
+      {% for categories in site.categories %}
+        <li><a href="/{{category}}"> {{ category }} </a></li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class="col-12">
-      <h2>More Destinations </h2>
-        <ul>
-          <li><a href="#Seattle"> Seattle </a></li>
-          <li><a href="#San Diego"> San Diego </a></li>
-          <li><a href="#Vancouver"> Vancouver </a></li>
-        </ul>
-  </div>
+
 </section>

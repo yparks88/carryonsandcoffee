@@ -10,18 +10,18 @@ banner-image: images/bgairplane.jpeg
     <div class="grid col-9">
 
       {% for post in site.posts limit:6 %}
-      <div class="col-6">
-        <img src="{{post.banner-image}}">
-      </div>
+        <div class="col-6">
+          <img src="{{post.banner-image}}">
+        </div>
 
-      <div class="col-6 content-text">
-        <h2> <a href= "{{post.url}}"> {{post.title}} </a></h2>
-        <h3> {{post.author}} </h3>
-        <h4> {{post.date}} </h4>
-      </div>
+        <div class="col-6 content-text">
+          <h2> <a href="{{post.url}}"> {{post.title}} </a></h2>
+          <h3> {{post.author}} </h3>
+          <h4> {{post.date}} </h4>
+        </div>
 
       {% endfor %}
-      </div>
+    </div>
 
     <div class="col-3 sidenav">
       {% include sitesidebar.html %}

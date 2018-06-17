@@ -12,16 +12,17 @@
 
   <body>
       <!--include at top of all pages-->
-      <header class="banner" style="background-image: url()">
-  <h1></h1>
+      <header class="banner grid-bottom-center" style="background-image: url()">
 
-  <nav class="grid-center">
     <div class="col-12">
-      <a href="/" class="col-4"> Home </a>
-      <a href="destinations" class="col-4"> Destinations </a>
-      <a href="tips" class="col-4"> Tips&Tricks </a>
+      <h1>Archive</h1>
     </div>
-  </nav>
+
+    <nav>
+      <a href="/"> Home </a>
+      <a href="/destinations"> Destinations </a>
+      <a href="/tips"> Tips&Tricks </a>
+    </nav>
 
 </header>
 
@@ -33,21 +34,85 @@
 </section>
 
 
-      <section class="container">
-  <h1> Blog Archive </h1>
+        <!--Repeatable Header-->
 
-  <div class="grid blog-loop">
-    
-  </div>
+  <section class="grid destination-body">
+    <div class="grid col-9">
 
-  <!-- Pagination links -->
-  <div class="pagination centered">
-    
-    <span class="page_number ">Page:  of </span>
-    
+      
+        <div class="col-6">
+          <img src="/images/cancunmain.jpeg">
+        </div>
+
+        <div class="col-6 content-text">
+          <h2> <a href="/travel/tips/bali/2018/06/09/bali-blog.html"> Bali Blog </a></h2>
+          <h3> Yvonne Parks </h3>
+          <h4> 2018-06-09 00:00:00 +0800 </h4>
+        </div>
+
+      
+        <div class="col-6">
+          <img src="/images/cartagenamain.jpeg">
+        </div>
+
+        <div class="col-6 content-text">
+          <h2> <a href="/travel/tips/cartagena/2018/04/06/cartagena-blog.html"> Cartagena Blog </a></h2>
+          <h3> Yvonne Parks </h3>
+          <h4> 2018-04-06 00:00:00 +0800 </h4>
+        </div>
+
+      
+        <div class="col-6">
+          <img src="/images/luggageblack.jpeg">
+        </div>
+
+        <div class="col-6 content-text">
+          <h2> <a href="/travel/tips/cancun/2018/03/04/cancun-blog.html"> Cancun Blog </a></h2>
+          <h3> Yvonne Parks </h3>
+          <h4> 2018-03-04 00:00:00 +0800 </h4>
+        </div>
+
+      
+        <div class="col-6">
+          <img src="/images/icedcoffeecafe.jpeg">
+        </div>
+
+        <div class="col-6 content-text">
+          <h2> <a href="/travel/tips/sydney/2018/02/01/sydney-blog.html"> Sydney Blog </a></h2>
+          <h3> Yvonne Parks </h3>
+          <h4> 2018-02-01 00:00:00 +0800 </h4>
+        </div>
+
+      
+    </div>
+
+    <div class="col-3 sidenav">
+      
+<section class="grid sidebar col-3">
+  <div class="col-12">
+    <h2> More Destinations </h2>
+    <ul>
+      
+        <li><a href="/">  </a></li>
+      
+        <li><a href="/">  </a></li>
+      
+        <li><a href="/">  </a></li>
+      
+        <li><a href="/">  </a></li>
+      
+        <li><a href="/">  </a></li>
+      
+        <li><a href="/">  </a></li>
+      
+    </ul>
   </div>
 
 </section>
+
+    </div>
+
+  </section>
 
 
       <!--Repeatable Quote or Tip-->
@@ -65,10 +130,10 @@
       <!--Repeatable Footer-->
       
 <footer>
-  <form method="POST" action="https://formspree.io/carryonsandcoffee@gmail.com">
-  <input type="email" class="formbutton" name="email" placeholder="Tell Me More">
-  <textarea name="message" class="formbutton" placeholder="I would like additional information!"></textarea>
-  <button type="submit" class="formbutton submit">Sign Up!</button>
+  <form  class="grid-middle-center" method="POST" action="https://formspree.io/carryonsandcoffee@gmail.com">
+    <input type="name" class="formbutton" name="name" placeholder="Name">
+    <input type="email" class="formbutton" name="email" placeholder="Email">
+    <button type="submit" class="formbutton submit">Tell Me More</button>
   </form>
 </footer>
 
