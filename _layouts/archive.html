@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Destinations
-banner-image: /images/bgairplane.jpeg
 ---
 
   <!--this folder was previously destinations-->
@@ -11,7 +10,7 @@ banner-image: /images/bgairplane.jpeg
 
       {% for post in paginator.posts %}
         <div class="col-6">
-          <img src="{{post.banner-image}}">
+          <img src="/images/{{ post.title | slugify }}.jpg">
         </div>
 
         <div class="col-6 content-text">

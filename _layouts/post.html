@@ -3,7 +3,7 @@ layout: default
 title: Title
 permalink: /:year/:month/:everyday
 banner-image: images/bgairplane.jpeg
-
+comments: true
 ---
 
 <section class="grid destination-body">
@@ -19,6 +19,21 @@ banner-image: images/bgairplane.jpeg
         <h4> {{ page.date | date_to_string }} </h4>
 
         {{content}}
+
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_config = function () {
+          this.page.url = "{{ site.baseurl }}";
+          this.page.identifier = "{{ page.url }}";
+        };
+        (function() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://carryons-coffee.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
   </div>
 

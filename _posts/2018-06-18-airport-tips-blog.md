@@ -3,7 +3,6 @@ layout: post
 title: Airport Tips
 meta-description:
 meta-keywords:
-banner-image: /images/icedcoffeecafe.jpeg
 sidebar-heading: San Diego
 categories: [tips, Packing]
 author: Yvonne Parks
