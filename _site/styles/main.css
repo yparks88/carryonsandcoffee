@@ -12,8 +12,14 @@ h1{
   color: white;
 }
 
+.subtitle{
+  font-family: 'Poiret One', cursive;
+  color:white;
+  font-size: 2rem;
+}
+
 h2{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poiret One', cursive;
   color: darkcyan;
   text-decoration: underline;
   font-size:5vh;
@@ -21,7 +27,7 @@ h2{
 }
 
 h3,ul{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3vh;
   margin-bottom: 2%;
 }
@@ -33,7 +39,7 @@ h4{
 }
 
 p,li{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 600;
   font-size:3vh;
   margin-bottom: 2%;
@@ -71,7 +77,7 @@ nav {
 }
 
 nav a {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noticia Text', serif;
   font-weight:700;
   padding: 2% 5%;
   margin: 0 1%;
@@ -79,7 +85,9 @@ nav a {
 }
 
 .menu a{
+  font-family: 'Poiret One', cursive;
   color:white;
+  text-shadow: 4px 2px rgb(49,34,30);
 }
 
 img {
@@ -88,7 +96,7 @@ img {
 
 /*--Need to align right--*/
 .social{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   background-color: white;
   text-align: right;
   padding: 2% 5%;
@@ -152,9 +160,11 @@ div.col-8.content-text{
   padding: 5%;
 }
 
-.quote h2{
-  color: beige;
-  text-align: center;
+.quote h1{
+  color: whitesmoke;
+  font-family: 'Poiret One', cursive;
+  font-size: 2rem;
+  text-shadow: 4px 2px rgb(49,34,30);
   padding: 2rem;
   background-color: darkcyan;
 }
@@ -174,11 +184,11 @@ form{
   padding: 1%;
   margin: 0 .5%;
   border: 1px solid rgb(49,34,30);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1rem;
 }
 
 .submit{
-  background-color: beige;
+  background-color: whitesmoke;
   border-radius: 4px;
 }
