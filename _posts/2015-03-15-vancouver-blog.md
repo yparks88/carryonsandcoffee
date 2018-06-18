@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vancouver Blog
+title: Vancouver 
 meta-description:
 meta-keywords:
 banner-image: /images/icedcoffeecafe.jpeg

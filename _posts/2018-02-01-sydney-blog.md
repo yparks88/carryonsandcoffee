@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sydney Blog
+title: Sydney 
 meta-description:
 meta-keywords: [travel, tips, Australia]
 banner-image: /images/icedcoffeecafe.jpeg

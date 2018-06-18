@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cartagena Blog
+title: Cartagena 
 meta-description:
 meta-keywords:
 banner-image: /images/cartagenamain.jpeg

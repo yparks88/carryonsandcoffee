@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cancun Blog
+title: Cancun 
 meta-description:
 meta-keywords:
 banner-image: /images/luggageblack.jpeg

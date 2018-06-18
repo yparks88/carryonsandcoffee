@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seattle Blog
+title: Seattle 
 meta-description:
 meta-keywords:
 banner-image: /images/icedcoffeecafe.jpeg
