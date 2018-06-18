@@ -38,8 +38,6 @@ p,li{
 
 a{
   font-family: 'Cormorant Garamond', serif;
-  color: darkcyan;
-  background-color: white;
   text-align: center;
   text-decoration: none;
   border-radius: 4px;
@@ -62,6 +60,8 @@ a:hover{
 
 nav {
   display:contents;
+  color: darkcyan;
+  background-color: white;
   font-size: 1.5rem;
   text-decoration:underline;
   border: 1px solid rgb(49,34,30);
@@ -90,13 +90,19 @@ img {
   border-left: 2px solid rgb(49,34,30);
 }
 
+.sidenav a{
+  color: darkcyan;
+  background-color: white;
+}
+
 .instagram{
   background-color: darkcyan;
   border: 1px solid rgb(49,34,30)
 }
 
 .map{
-  min-height:50vh;
+  min-height:40vh;
+  min-width: 40vw;
 }
 
 .article-image{
@@ -133,10 +139,11 @@ img {
   padding: 5%;
 }
 
-.quote{
+.quote {
+  color:beige;
   text-align: center;
-  padding: 1rem;
-  background-color: beige;
+  padding: 2rem;
+  background-color: darkcyan;
 }
 
 footer{
