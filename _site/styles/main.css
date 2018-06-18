@@ -13,20 +13,22 @@ h1{
 
 h2{
   font-family: 'Dancing Script', cursive;
+  color: darkcyan;
   text-decoration: underline;
   font-size:5vh;
+  margin-bottom: 3%;
 }
 
 h3,ul{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 4vh;
+  font-size: 3vh;
   margin-bottom: 2%;
 }
 
 h4{
   font-size: 2vh;
   margin-bottom: 2%;
-  color: aqua;
+  color: darkcyan;
 }
 
 p,li{
@@ -101,8 +103,11 @@ img {
 }
 
 .map{
-  min-height:40vh;
-  min-width: 40vw;
+  background-image: url(/images/profilemappic.jpg);
+  background-size: cover;
+  background-position:center;
+  min-height: 50vh;
+
 }
 
 .article-image{
@@ -127,7 +132,7 @@ img {
 }
 
 .content-text{
-  padding: 5%;
+  padding: 0;
   display: block;
 }
 
@@ -140,7 +145,7 @@ img {
 }
 
 .quote {
-  color:beige;
+  color: beige;
   text-align: center;
   padding: 2rem;
   background-color: darkcyan;
