@@ -36,7 +36,7 @@ pagination:
   sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'posts'
+  # category: 'posts'
 
 
  # Optional,omit or set both before and after to zero to disable.

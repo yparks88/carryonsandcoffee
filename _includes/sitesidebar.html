@@ -1,10 +1,32 @@
+{% assign cat = page.title %}
 
-<section class="grid sidebar col-3">
-  <div class="col-12">
-    <h2> {{ sidebar-heading }} More destinations </h2>
+<section class="sidebar sticker" data-margin-top="20">
+  <div>
+    <h2>Sharing is caring</h2>
+    <ul class="sidebar-socials">
+      <li>
+        <a href="#instagram">
+          <img src="/images/instagram.svg" alt="Check out my Instagram" />
+        </a>
+      </li>
+      <li>
+        <a href="#facebook">
+          <img src="/images/facebook.svg" alt="Check out my Facebook" />
+        </a>
+      </li>
+      <li>
+        <a href="#pinterest">
+          <img src="/images/pinterest.svg" alt="Check out my Pinterest" />
+        </a>
+      </li>
+    </ul>
+    <br>
+    <h2> {{ sidebar-heading }} More {{ cat }} </h2>
     <ul>
       {% for post in site.posts %}
-        <li><a href="{{post.url}}"> {{post.title}} </a></li>
+        {% if post.categories contains cat %}
+         <li> <a href="{{ post.url }}"> {{ post.title }} </a> </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>

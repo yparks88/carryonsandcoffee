@@ -1,5 +1,5 @@
 $(document).ready(function(){
 
-console.log('Hello');
+    var sticky = new Sticky('.sticker');
 
 });

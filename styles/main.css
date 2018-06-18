@@ -94,12 +94,20 @@ img {
   width: 100%;
 }
 
-/*--Need to align right--*/
-.social{
-  font-family: 'Open Sans Condensed', sans-serif;
-  background-color: white;
-  text-align: right;
-  padding: 2% 5%;
+/* SIDEBAR */
+.sidebar-socials {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.sidebar-socials a {
+  display: block;
+}
+
+.sidebar-socials img {
+  width: 40px;
+  height: 40px;
 }
 
 .sidenav{
