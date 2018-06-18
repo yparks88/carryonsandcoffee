@@ -1,10 +1,10 @@
 
-<section class="grid sidebar col-3">
+<section class="grid sidebar col-3" style="list-style-type:url({{post.title}})">>
   <div class="col-12">
     <h2> {{ sidebar-title }} More destinations </h2>
     <ul>
       {% for categories in site.categories %}
-        <li><a href="/{{category}}"> {{ category }} </a></li>
+        <li><a href="/{{category}}"> {{ post.category }} Link </a></li>
       {% endfor %}
     </ul>
   </div>

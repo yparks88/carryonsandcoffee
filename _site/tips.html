@@ -4,16 +4,28 @@
     <meta charset="utf-8">
     <title>CarryOns & Coffee</title>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
-
     <link rel="stylesheet" href="/styles/gridlex.css">
     <link rel="stylesheet" href="/styles/main.css">
+
+    <!--code to do scroll bar-->
+
+    <script class="quotescroll" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $("button").click(function(){
+      $("div").scrollTop(100);
+      });
+      });
+    </script>
+
+    <!--code end-->
 
   </head>
 
   <body class="menu-hidden">
 
       <!--include at top of all pages-->
-      <header class="banner grid-bottom-center" style="background-image: url(images/bg-beans.jpg)">
+      <header class="banner grid-bottom-center" style="background-image: url(/images/bg-beans.jpg)">
 
     <div class="col-12">
       <h1>Tips</h1>
@@ -64,22 +76,24 @@
 
   <div class="col-3 sidenav">
     
-<section class="grid sidebar col-3">
+<section class="grid sidebar col-3" style="list-style-type:url()">>
   <div class="col-12">
     <h2>  More destinations </h2>
     <ul>
       
-        <li><a href="/">  </a></li>
+        <li><a href="/">  Link </a></li>
       
-        <li><a href="/">  </a></li>
+        <li><a href="/">  Link </a></li>
       
-        <li><a href="/">  </a></li>
+        <li><a href="/">  Link </a></li>
       
-        <li><a href="/">  </a></li>
+        <li><a href="/">  Link </a></li>
       
-        <li><a href="/">  </a></li>
+        <li><a href="/">  Link </a></li>
       
-        <li><a href="/">  </a></li>
+        <li><a href="/">  Link </a></li>
+      
+        <li><a href="/">  Link </a></li>
       
     </ul>
   </div>
@@ -93,12 +107,13 @@
 
   <!--Repeatable Footer-->
 
-
+      
       <!--Repeatable Quote or Tip-->
       
 <section class="quote">
   <h1>"Traveling – it leaves you speechless, then turns you into a storyteller.” – Ibn Battuta</h1>
 </section>
+
 
 
       <!--Instagram pics will go here-->
