@@ -3,7 +3,7 @@ layout: post
 title: San Diego
 meta-description:
 meta-keywords:
-banner-image: /images/icedcoffeecafe.jpeg
+banner_image: /images/bali.jpg
 sidebar-heading: San Diego
 categories: [destinations, San Diego]
 author: Yvonne Parks

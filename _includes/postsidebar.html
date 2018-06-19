@@ -3,6 +3,7 @@
 <section class="sidebar sticker" data-margin-top="20">
   <div>
     <h2>Check Out My Social</h2>
+
     <ul class="sidebar-socials">
       <li>
         <a href="#instagram">
@@ -21,14 +22,12 @@
       </li>
     </ul>
     <br>
-    <h2> {{ sidebar-heading }} More {{ cat }} </h2>
+    <h2> Featured Posts </h2>
 
     <!-- ask daniel to add some jekyll that checks whether it is on a blog page or a category page and adjust as necessary, or create a new layout / sidebar for the category pages  -->
     <ul>
-      {% for post in site.posts %}
-        {% if post.categories contains cat %}
+      {% for post in site.posts limit:6 %}
          <li> <a href="{{ post.url }}"> {{ post.title }} </a> </li>
-        {% endif %}
       {% endfor %}
     </ul>
   </div>

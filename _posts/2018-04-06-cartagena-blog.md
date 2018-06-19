@@ -3,7 +3,7 @@ layout: post
 title: Cartagena
 meta-description:
 meta-keywords:
-banner-image: /images/cartagenamain.jpeg
+banner_image: /images/cartagena.jpg
 categories: [destinations, Cartagena]
 author: Yvonne Parks
 excerpt_separator: <!--more-->

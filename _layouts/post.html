@@ -2,7 +2,6 @@
 layout: default
 title: Title
 permalink: /:year/:month/:everyday
-banner-image: images/bgairplane.jpeg
 comments: true
 ---
 
@@ -11,7 +10,7 @@ comments: true
   <div class="grid col-8 content-text">
 
       <!-- <div class="col-6" {{page.article-image}}>
-        <img src="{{page.banner-image}}">
+        <img src="{{page.banner_image}}">
       </div> -->
 
         <h2> {{ page.title }} </h2>
@@ -39,7 +38,7 @@ comments: true
 
   <div class="col-1"></div>
   <div class="col-3 sidenav">
-    {% include sitesidebar.html %}
+    {% include postsidebar.html %}
   </div>
 
 </section>

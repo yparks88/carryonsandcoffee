@@ -3,7 +3,7 @@ layout: post
 title: Hairstyle Tips
 meta-description:
 meta-keywords:
-banner-image: /images/icedcoffeecafe.jpeg
+banner_image: /images/hairstyle-tips.jpg
 sidebar-heading: San Diego
 categories: [tips, Packing]
 author: Yvonne Parks
