@@ -3,7 +3,7 @@ layout: post
 title: Packing tips
 meta-description:
 meta-keywords:
-banner_image: /images/bali.jpg
+banner_image: /images/packing-tips.jpg
 sidebar-heading: San Diego
 categories: [tips, Packing]
 author: Yvonne Parks
