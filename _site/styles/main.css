@@ -152,24 +152,6 @@ img.profilepic{
 
 }
 
-.article-image{
-  background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1511846713000/photosp/18f81702-ce8e-4f81-a415-ac86b7945f25/stock-photo-nobody-view-from-above-brown-food-indoors-wood-love-plate-drink-18f81702-ce8e-4f81-a415-ac86b7945f25.jpg);
-  background-position: center;
-  background-style: cover;
-}
-
-.article-image-tips{
-  background-image: url(/images/crossbodydoorhandle.jpeg);
-  background-size: cover;
-  background-position: center;
-}
-
-.article-image2{
-  background-image: url(/images/luggagedog.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .index-body{
   padding: 5%;
 }

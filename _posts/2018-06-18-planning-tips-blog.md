@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Planning Tips
+title: The Best Way to Plan Your Trip
 meta-description:
 meta-keywords:
 banner_image: /images/planning-tips.jpg

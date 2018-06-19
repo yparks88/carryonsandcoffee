@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Packing tips
+title: Easiest Packing Tips for Any Travel
 meta-description:
 meta-keywords:
 banner_image: /images/packing-tips.jpg
