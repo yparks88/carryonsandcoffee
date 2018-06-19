@@ -3,7 +3,7 @@ layout: post
 title: Planning Tips
 meta-description:
 meta-keywords:
-banner_image: /images/icedcoffeecafe.jpg
+banner_image: /images/planning-tips.jpg
 sidebar-heading: San Diego
 categories: [tips, Packing]
 author: Yvonne Parks
