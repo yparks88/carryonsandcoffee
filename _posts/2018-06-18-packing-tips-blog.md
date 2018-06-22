@@ -19,7 +19,7 @@ Packing all of your travel items can cause a lot of stress but it doesn't have t
 
 2.) Layers are so versatile and usually items being layered are not bulky. You can also mix and match layered items to vary your outfits.
 
-3.) Liit the amount of shoes that you bring.
+3.) Limit the amount of shoes that you bring.
 
 
 mal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel. Ad quo animal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel.
