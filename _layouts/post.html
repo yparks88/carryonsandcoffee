@@ -13,7 +13,7 @@ comments: true
         <img src="{{page.banner_image}}">
       </div> -->
 
-        <h2> {{ page.title }} </h2>
+        <h2>{{ page.title | capitalize }}</h2>
         <h3> {{ page.author }} </h3>
         <h4> {{ page.date | date_to_string }} </h4>
 
