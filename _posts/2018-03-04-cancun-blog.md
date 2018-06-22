@@ -3,7 +3,7 @@ layout: post
 title: Cancun
 meta-description:
 meta-keywords:
-banner_image: /images/luggageblack.jpg
+banner_image: /images/cancunpostmain.jpg
 categories: [destinations, Cancun]
 author: Yvonne Parks
 excerpt_separator: <!--more-->

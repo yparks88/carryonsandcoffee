@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Learning Away from Home Tips
+title: Learning Away from Home
 meta-description:
 meta-keywords:
-sidebar-heading: Learning Away from Home Tips
+sidebar-heading: Learning Away from Home
 categories: [tips, Packing]
 banner_image: /images/learning-away-from-home-tips.jpeg
 author: Yvonne Parks
