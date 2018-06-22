@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Easiest Packing for Any Travel Tips
+title: Easiest Packing Tips for Any Travel
 meta-description:
 meta-keywords:
 banner_image: /images/packing-tips.jpg
-sidebar-heading: Easy Packing for Any Travel Tips
+sidebar-heading: Easiest Packing Tips for Any Travel 
 categories: [tips, Packing]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
