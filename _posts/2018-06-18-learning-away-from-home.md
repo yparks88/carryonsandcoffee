@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Learning Away From Home
+title: Learning Away from Home
 meta-description:
 meta-keywords:
-sidebar-heading: San Diego
+sidebar-heading: Tips for Learning Away from Home
 categories: [tips, Packing]
 banner_image: /images/learning-away-from-home-tips.jpeg
 author: Yvonne Parks

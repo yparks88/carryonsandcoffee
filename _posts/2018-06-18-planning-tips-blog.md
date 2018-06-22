@@ -4,7 +4,7 @@ title: The Best Way to Plan Your Trip
 meta-description:
 meta-keywords:
 banner_image: /images/planning-tips.jpg
-sidebar-heading: San Diego
+sidebar-heading: The Best Way to Plan Your Trip
 categories: [tips, Packing]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
