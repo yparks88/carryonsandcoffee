@@ -3,7 +3,7 @@ layout: post
 title: Vancouver
 meta-description:
 meta-keywords:
-banner_image: /images/bali.jpg
+banner_image: /images/vancouvermain.jpg
 categories: [destinations, Vancouver]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
