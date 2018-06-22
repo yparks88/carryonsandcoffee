@@ -3,7 +3,7 @@ layout: post
 title: Sydney
 meta-description:
 meta-keywords: [travel, tips, Australia]
-banner_image: /images/bali.jpg
+banner_image: /images/sydneymainpostpic.jpg
 categories: [destinations, Sydney]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
