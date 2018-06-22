@@ -3,7 +3,7 @@ layout: post
 title: Seattle
 meta-description:
 meta-keywords:
-banner_image: /images/seattlemain.jpeg
+banner_image: /images/seattlemain.jpg
 categories: [destinations, Seattle]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
