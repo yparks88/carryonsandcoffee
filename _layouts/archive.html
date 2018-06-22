@@ -10,11 +10,11 @@ banner_image: /images/archiveheader.jpg
     <div class="grid col-9">
 
       {% for post in paginator.posts %}
-        <div class="col-6">
+        <div class="col-6_xs-12">
           <img src="{{post.banner_image}}">
         </div>
 
-        <div class="col-6 content-text">
+        <div class="col-6_xs-12 content-text">
           <h2> <a href="{{post.url}}"> {{post.title}} </a></h2>
           <h4> {{ post.author }} </h4>
           <h4> {{ post.date | date_to_string }} </h4>
@@ -43,7 +43,7 @@ banner_image: /images/archiveheader.jpg
 
     </div>
 
-    <div class="col-3 sidenav data-sticky-container sticky-wrapper" data-sticky-container>
+    <div class="col-3_xs-12 sidenav data-sticky-container sticky-wrapper" data-sticky-container>
       {% include sitesidebar.html %}
     </div>
 
