@@ -8,17 +8,14 @@ sidebar-heading: The Best Way to Plan Your Trip
 categories: [tips, Packing]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
-post-intro: If you are a fan of lists and research, like myself, you will find planning for your trip almost as fun as going on it. Almost.
-
-Before actually zipping up my suitcase one last time before heading to the airport, I tend to make at least two lists -  a first draft and a final check off version. My first draft is a quick once over containing general articles of clothing, necessary toiletries, and miscellaneous accessories.
+post-intro: If you are a fan of lists and research, like myself, you will find planning for your trip almost as fun as going on it. Almost. Before actually zipping up my suitcase one last time before heading to the airport, I tend to make at least two lists -  a first draft and a final check off version. My first draft is a quick once over containing general articles of clothing, necessary toiletries, and miscellaneous accessories.
 ---
 
 If you are a fan of lists and research, like myself, you will find planning for your trip almost as fun as going on it. Almost.
-
 Before actually zipping up my suitcase one last time before heading to the airport, I tend to make at least two lists - a first draft and a final check off version. My first draft is a quick once over containing general articles of clothing, necessary toiletries, and miscellaneous accessories. It will often look like this:
 
 To Pack:
--Tshirts
+Tshirts
 -Yoga pants
 -Pjs
 -Dresses
