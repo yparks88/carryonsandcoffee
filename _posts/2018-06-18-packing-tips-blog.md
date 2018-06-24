@@ -4,7 +4,7 @@ title: Easiest Packing Tips for Any Travel
 meta-description:
 meta-keywords:
 banner_image: /images/packing-tips.jpg
-sidebar-heading: Easiest Packing Tips for Any Travel 
+sidebar-heading: Easiest Packing Tips for Any Travel
 categories: [tips, Packing]
 author: Yvonne Parks
 excerpt_separator: <!--more-->
@@ -18,6 +18,5 @@ been the most effective space saver for me.
 2.) Layers are so versatile and usually items being layered are not bulky. You can also mix and match layered items to vary your
 outfits.
 3.) Limit the amount of shoes that you bring.
-
-
-mal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel. Ad quo animal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel.
+4.)
+5.)

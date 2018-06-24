@@ -148,6 +148,7 @@ img.profilepic{
   background-image: url(/images/profilemappic.jpg);
   background-size: cover;
   background-position:center;
+  border-radius: 50%;
   min-height: 50vh;
 
 }
