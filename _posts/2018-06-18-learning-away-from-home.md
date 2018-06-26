@@ -8,7 +8,7 @@ categories: [tips, Packing]
 banner_image: /images/learning-away-from-home-tips.jpeg
 author: Yvonne Parks
 excerpt_separator: <!--more-->
-post-intro:
+post-intro: Thank you for checking out my site. More content coming soon!
 ---
 
 I find that the best way to learn something is to be open and immerse yourself in it. Whether it is a language or a skill, being able to fully focus allows for absorption and question asking.
