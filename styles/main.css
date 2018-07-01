@@ -193,6 +193,10 @@ footer{
   color:white;
 }
 
+.gold_text{
+  color: gold;
+}
+
 form{
   text-align: center;
   padding:2%;
